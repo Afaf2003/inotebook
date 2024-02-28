@@ -13,10 +13,9 @@ iNoteBook is a cloud-based note storage application built using React. It provid
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (or any other database used for storing user data)
+- **Database**: MongoDB 
 - **Authentication**: JSON Web Tokens (JWT) for user authentication
-- **Other Tools/Libraries**: (mention any other tools or libraries used)
-
+- **Other Tools/Libraries**: VS CODE, MongoDB Campus 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/Afaf2003/inotebook.git`
