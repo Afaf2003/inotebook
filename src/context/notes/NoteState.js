@@ -18,6 +18,7 @@ const NoteState = (props) => {
                 "auth-token": localStorage.getItem('token')
             }
         });
+        // This is the response that we are getting from the backend while getting notes from DB
         const json = await response.json()
         setNotes(json)
     }
@@ -37,6 +38,7 @@ const NoteState = (props) => {
         });
 
         // console.log("Add Note Function is Running....")
+        // This is the response that we are getting from the backend while Adding new notes to DB
         const note = await response.json()
         setNotes(notes.concat(note));
     }

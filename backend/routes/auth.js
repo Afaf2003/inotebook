@@ -38,6 +38,7 @@ router.post('/createuser', [
         });
 
         const data = {
+            //payload object
             user: {
                 id: user.id
             }

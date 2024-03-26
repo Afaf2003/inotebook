@@ -10,7 +10,8 @@ const fetchuser = (req, res, next) => {
     }
     try {
         const data = jwt.verify(token, jwt_Secrete);
-        req.user = data.user;
+        //The validation method returns a decode object that we stored the token in
+        req.user = data.user
         next();
     } catch (error) {
         res.status(401).send({ error: "Please Authenticate using Correct Token!" });
